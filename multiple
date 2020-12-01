@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>MBTI TEST</title>
+    <link href="../css/general.css" rel="stylesheet">
+    <link href="../css/test.css" rel="stylesheet">
+    <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5fc62864d0d87aa0"></script>
+</head>
+
+<body>
+      <nav>
+          <img src="https://cdn-fo.sivillage.com/fo/images/jaju/common/ico_logo4.png">
+          <br>
+          <li>
+              <a href="https://www.sivillage.com/jaju/main/initMain.siv">HOME</a>
+          </li>
+          <li>
+              <a href="http://localhost:63342/pythonProject3/jajumbti.html?_ijt=6d7sf3behptrsguhs1mltg3cjs">TEST</a>
+          </li>
+          <li>
+              <a href="https://www.sivillage.com/jaju/shop/initJaJuNShop.siv?disp_ctg_no=2001013169">HOME TRAINING</a>
+          </li>
+
+      </nav>
+
+
+        <h2>MBTI테스트:    나에게 맞는 운동법을 처방해드려요</h2>
+      <hr>
+    <div class="nav_left">
+    </div>
+    <main>
+            <div class="nav_middle">
+    </div>
+        <form action="subscribe.html">
+            <p>
+                <b>1. 거리두기 2단계 격상으로 인해 헬스장에 못 가게 된 당신. 당신이 선택한 운동법은:</b>
+                <br>
+                <input name="mbti_1" type="radio" value="1" checked="checked">운동은 일상에서! 집까지 계단 오르기
+
+                <input name="mbti_1" type="radio" value="2">헬스장은 못 가도.. 야외 러닝!
+                <input name="mbti_1" type="radio" value="3"> 유명 트레이너의 운동 영상을 보며 따라하기
+            </p>
+            <p>
+                <b>2. 2021년 1월1일을 새로운 한 해를 맞이하기 위한 계획을 세우려 한다.</b>
+                <br>
+                <input name="mbti_2" type="radio" value="1" checked="checked">시끌벅적한게 좋아! 친구들과 파티룸을 잡는다
+
+                <input name="mbti_2" type="radio" value="2">올해는 꼭…이루게 해주세요.. 새해 일출을 보기 위해 혼자 산에 오른다
+                <input name="mbti_2" type="radio" value="3">집이 최고지 가긴 어딜가! 집에서 타종행사를 시청한다
+            </p>
+            <p>
+                <b>3. 친구에게 새로운 길을 알려줄 때</b>
+                <br>
+                <input name="mbti_3" type="radio" value="1" checked="checked">집에서 장소까지 구체적으로 설명한다
+                <input name="mbti_3" type="radio" value="2">의식의 흐름대로~ 주위에 뭐가 있는지 알려준다
+
+            </p>
+            <p>
+                <b>4. 당신이 더 선호하는 일은?</b>
+                <br>
+                <input name="mbti_4" type="radio" value="1" checked="checked">익숙해서 잘 할 수 있는 일
+                <input name="mbti_4" type="radio" value="2">흥미진진 매번 새로운 일
+            </p>
+            <p>
+                <b>5. 친구가 '기분이 우울해서 화분을 샀어..'라는 답장에</b>
+                <br>
+                <input name="mbti_5" type="radio" value="1" checked="checked">왜 우울해ㅠ 무슨 일 있어?
+                <input name="mbti_5" type="radio" value="2">잘했네! 어떤 화분을 샀어?
+            </p>
+            <p>
+                <b>6. 큰 결정을 해야할 때! </b>
+                <br>
+                <input name="mbti_6" type="radio" value="1" checked="checked">마음 가는데로.. 느낌으로 결정한다
+                <input name="mbti_6" type="radio" value="2">팩트로 판단한다
+            </p>
+            <p>
+                <b>7. 마음에 드는 칭찬은？</b>
+                <br>
+                <input name="mbti_7" type="radio" value="1" checked="checked">좋은 결과에 대한 칭찬을 받는 것
+                <input name="mbti_7" type="radio" value="2">수고한 과정에 대해 칭찬 받는 것
+            </p>
+            <p>
+                <b>8. 같은 영화를 열 번째 보고있는 당신은..</b>
+                <br>
+                <input name="mbti_8" type="radio" value="1" checked="checked">주인공 어떡해.. 주인공 입장이 되어 몰입한다
+                <input name="mbti_8" type="radio" value="2">저런건 어떻게 찍었을까? 연출에 관심을 갖는다
+            </p>
+            <p>
+                <b>9. 여행지에서 두갈래 길을 만난다면？ </b>
+                <br>
+                <input name="mbti_9" type="radio" value="1" checked="checked">지도를 주섬주섬 꺼내서 본다
+                <br>
+                <input name="mbti_9" type="radio" value="2">왠지 이 길이 끌려! 느낌에 의지한다
+            </p>
+            <input id="submit" name="submit" type="submit" value="제출">
+        </form>
+        <p>
+                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                <div class="addthis_inline_share_toolbox"></div>
+
+    </main>
+    <footer>
+        <hr>
+        <p>Copyright &copy; JAJU 2 TEAM 3:MBTI TEST </p>
+    </footer>
+</body>
+</html>
