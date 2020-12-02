@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="jajumbti.html" />
+      <title>result page</title>
+</head>
+<body>
+<h1> 검사 결과 </h1>
+
+<div class="container">
+    <div class="verticalLine"></div>
+    <div id="visionDivision">
+
+    <br>
+    <div class="row">
+      <div class="col-md-4">
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4">
+        <div class="scroll">
+          <p4>당신의 운동 유형은 </p4>
+        </div>
+      </div>
+      <div class="col-md-4">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="cSharp">
+      <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-3">
+          <div id="result-text1">
+            <p>찾았습니다!</p>
+            <p2>근력운동하고 싶지만 딱 시키는 만큼만</p2>
+            <br>
+            <p3>PT형 입니다!</p3>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div id="result-img1">
+            <img src="img/csharp.png" alt="cSharp logo">
+          </div>
+        </div>
+        <div class="col-md-3">
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <div class="col-md-3">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="java">
+      <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-3">
+            <p>당신의 운동 유형은</p>
+            <p2>일상에 힐링이 필요해</p2>
+            <br>
+            <p3>요가형 입니다!</p3>
+          </div>
+        </div>
+        <div class="col-md-3">
+            <img src="img/java.png" alt="YOGA">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="ruby">
+      <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-3">
+            <p>당신의 운동 유형은</p>
+            <p2>코어 운동엔</p2>
+            <br>
+            <p3>필라테스형</p3>
+          </div>
+        </div>
+        <div class="col-md-3">
+            <img src="img/pilates.png" alt="PILATES">
+          </div>
+        </div>
+        <div class="col-md-3">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="go">
+      <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-3">
+            <p>당신의 운동 유형은</p>
+            <p2>짧고 강렬한 !</p2>
+            <br>
+            <p3>EMS형</p3>
+          </div>
+        </div>
+        <div class="col-md-3">
+            <img src="img/go.png" alt="EMS IMAGE">
+          </div>
+        </div>
+        <div class="col-md-3">
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="container">
+    <div class="java">
+      <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-3">
+            <p>당신의 운동 유형은</p>
+            <p2>세상 살기도 힘든데 운동을 따로 해?</p2>
+            <br>
+            <p3>테스형 입니다!</p3>
+          </div>
+        </div>
+        <div class="col-md-3">
+            <img src="img/java.png" alt="YOGA">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<br>
+        <span>
+            <button onclick="window.location.href = 'jajumbti.html';" class="server" style="background-color:orange;color:white;">TEST AGAIN</button>
+            </span>
+    </div>
+</div>
+
+</body>
+    <footer>
+        <div class="addthis_inline_share_toolbox"></div>
+        <p>Copyright &copy; JAJU 2 TEAM 3/ MBTI TEST </p>
+    </footer>
+
+</html>
