@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>JAJU MBTI TEST</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+   integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5fc62864d0d87aa0"></script>
+	 <div
+	class="healthbar text-center"
+	style="background-color: orange; margin: 0; color: white;"
+	:style="{width: playerHealth + '%'}">
+	  MBTI TEST- JAJU편
+</div>
+</head>
+<body>
+	<header class="maroon px-4 py-2">
+  <div class="headers">
+	   <img src="https://cdn-fo.sivillage.com/fo/images/jaju/common/ico_logo4.png">
+			 <a  class="d-flex text-bold justify-content-center align-items-center mb-2">
+			<h2 class="font-weight-bold" > 나에게 맞는 운동법을 처방해드려요</h2>
+	</a>
+      </div>
+        <nav>
+          <br>
+          <li>
+              <a href="https://www.sivillage.com/jaju/main/initMain.siv">HOME</a>
+          </li>
+          <li>
+              <a href="https://www.sivillage.com/jaju/shop/initJaJuNShop.siv?disp_ctg_no=2001013169">LOOK BOOK</a>
+          </li>
+
+      </nav>
+       
+</header>
+      <hr>
+    <div class="nav_left">
+    </div>
+    <main>
+	<body>
+            <div class="nav_middle">
+			
+    <h1>지금 테스트하기</h1>
+    <br>
+    <br>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h3>내가 선택한 운동법은?</h3>
+		  <br>
+      </div>
+      <div class="col-md-3">
+        <label>
+          <input type="radio" name="music" value="1">
+         <img src="../../Desktop/MBTI/Q1.1.png" width="100" height="100" alt="techno"/>
+        </label>
+      </div>
+      <div class="col-md-3">
+        <label>
+          <input type="radio" name="music" value="2">
+          <img src="../../Desktop/MBTI/Q1-2.png" width="50" height="50" alt="pop"/>
+        </label>
+      </div>
+      <div class="col-md-3">
+        <label>
+          <input type="radio" name="music" value="3">
+         <img src="../../Desktop/MBTI/Q2.3.png" width="150" height="100" alt="hiphop"/>
+        </label>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-md-3">
+        <h3> 자주 마시는 음료는?</h3>
+      </div>
+      <div class="col-md-3">
+          <label>
+            <input type="radio" name="beverage" value="1">
+            <img src="img/redbull.png" alt="redbull">
+          </label>
+      </div>
+      <div class="col-md-3">
+          <label>
+            <input type="radio" name="beverage" value="2">
+            <img src="img/tea.png" alt="tea">
+          </label>
+      </div>
+      <div class="col-md-3">
+          <label>
+            <input type="radio" name="beverage" value="3">
+            <img src="img/coffee.png" alt="coffee">
+          </label>
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-md-3">
+        <h3>내가 선호하는 스포츠는</h3>
+      </div>
+      <div class="col-md-3">
+          <label>
+            <input type="radio" name="activity" value="1">
+            <img src="img/pool.png" alt="pool">
+          </label>
+      </div>
+      <div class="col-md-3">
+        <label>
+          <input type="radio" name="activity" value="2">
+          <img src="img/hiking.png" alt="hiking">
+        </label>
+      </div>
+      <div class="col-md-3">
+        <label>
+          <input type="radio" name="activity" value="3">
+          <img src="img/biking.png" alt="biking">
+        </label>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-md-3">
+        <h3>나는 집에서 주로 </h3>
+      </div>
+      <div class="col-md-3">
+          <label>
+            <input type="radio" name="distraction" value="1">
+            <img src="img/xbox.png" alt="xbox">
+          </label>
+      </div>
+      <div class="col-md-3">
+          <label>
+            <input type="radio" name="distraction" value="2">
+            <img src="img/netflix.png" alt="netflix">
+          </label>
+      </div>
+      <div class="col-md-3">
+          <label>
+            <input type="radio" name="distraction" value="3">
+            <img src="img/iphone.png" alt="phone">
+          </label>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4">
+		    
+        <button class="btn btn-info" id="submit"> 결과 보기 </button>
+		</div>
+        <br>
+		  
+
+  <div class="container">
+    <div class="cSharp">
+      <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-3">
+          <div id="result-text1">
+            <p>당신과 맞는 운동 유형은!</p>
+            <p2>시키는대로 하는게 편해</p2>
+            <br>
+            <p3>PT형입니다!</p3>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div id="result-img1">
+	      <img src="MBTI TEST/img.png/pt.png" width="1140" height="594" alt=""/> </div>
+        <div class="col-md-3">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="java">
+      <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-3">
+          <div id="result-text1">
+            <p>당신과 맞는 운동 유형은! </p>
+            <p2>일상에 힐링이 필요해</p2>
+            <br>
+            <p3>요가형 입니다!</p3>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div id="result-img2">
+		  <img src="file:///Untitled/Users/yeojinim/Desktop/MBTI/yoga.jpeg" width="277" height="300" alt=""/> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="ruby">
+      <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-3">
+          <div id="result-text1">
+            <p>당신과 맞는 운동 유형은!</p>
+            <p2>코어 운동엔</p2>
+            <br>
+            <p3>필라테스형</p3>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div id="result-img3">
+		
+	      <img src="file:///Untitled/Users/yeojinim/Desktop/MBTI/pilates.png" width="266" height="189" alt=""/> </div>
+     
+        <div class="col-md-3">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="go">
+      <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-3">
+          <div id="result-text1">
+            <p>당신과 맞는 운동 유형은!</p>
+            <p2>짧고 강렬한</p2>
+            <br>
+            <p3>EMS형!</p3>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div id="result-img4">
+	      <img src="MBTI TEST/img.png/ems.png" width="920" height="641" alt=""/> 
+        <div class="col-md-3">
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="container">
+    <div class="go">
+      <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-3">
+          <div id="result-text1">
+            <p>당신과 맞는 운동 유형은!</p>
+            <p2>세상 살기도 힘든데 운동을 따로 해?</p2>
+            <br>
+            <p3>테스형!</p3>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div id="result-img4">
+			  <img src="file:///Untitled/Users/yeojinim/Desktop/MBTI/테스형.jpg" width="800" height="420" alt="테스형"/>
+          </div>
+        </div>
+	</div>
+   <footer>
+    <div class="addthis_inline_share_toolbox">
+	   </div>
+        <p>Copyright &copy; JAJU 2 TEAM 3/ MBTI TEST </p>
+    </footer>
+</html>
